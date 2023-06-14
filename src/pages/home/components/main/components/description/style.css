@@ -1,0 +1,115 @@
+.description {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  color: #4a5568;
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: medium;
+  /*     background-color: aquamarine;
+
+ */
+}
+
+.description-text-container {
+  width: 35%;
+  position: relative;
+  /*     background-color: purple;
+ */
+  padding: 30px;
+}
+
+.description-line1 {
+  background: #ffcc03;
+  height: 20px;
+  width: 150px;
+  opacity: 0.3;
+  position: relative;
+  top: -40px;
+}
+
+/* .description-line2{
+    background: #000000;
+    height: 30px;
+    width:250px;
+    opacity: .1;
+    position: relative;
+    top: -40px;
+} */
+.description-text-container__text1 {
+  color: #ffcc03;
+}
+
+.description-text-container__text2 {
+  color: black;
+}
+.description-text-container__text3 {
+  color: #4a5568;
+  font-weight: initial;
+}
+.description-picture {
+  background-image: url(../../../../../../assets/svg/shopping_home.svg);
+  width: 50%;
+  height: 440px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  background-position: center;
+  /*      background-color: red;
+ */
+  padding: 40px;
+}
+
+.description-text-container__functionalities td {
+}
+
+.description-text-container__functionalities td h3 {
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.description-text-container__functionality {
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.description-text-container__functionalities table {
+  word-break: break-all;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 930px) {
+  .description-picture {
+    display: none;
+  }
+  .description-text-container {
+    width: 50%;
+  }
+  .description-text-container__functionalities td h3 {
+    font-size: small;
+  }
+}
+
+@media (max-width: 540px) {
+  .description-text-container__functionalities td h3 {
+    font-size: 10px;
+    font-weight: 200;
+  }
+  .description-text-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .description-text-container__functionalities td h3 {
+    font-size: 8px;
+    margin-left: 0px;
+  }
+}

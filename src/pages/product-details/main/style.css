@@ -1,0 +1,133 @@
+.product-details-main {
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background-image: url("../../../assets/svg/white_background.svg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.product-details-main__container {
+  height: 80%;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  z-index: 1;
+  justify-content: space-around;
+}
+
+.product-details-main__container__images {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.product-details-main__container__images__main-image {
+  width: 70%;
+  height: 70%;
+  border-radius: 20px;
+  align-self: center;
+  left: 0px;
+  background-size: cover;
+  position: relative;
+}
+
+.product-details-main__container__images__list__container {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-details-main__container__images__list__slide {
+  background-image: url("../../../assets/images/shoes.jpg");
+  height: 34%;
+  width: 70%;
+  margin: 0 auto;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.product-details-main__container__images__list {
+  position: relative;
+  height: 100%;
+}
+
+.product-details-main__container__description {
+  width: 30%;
+  position: relative;
+  /* padding-left: 50px; */
+}
+
+.product-details-main__container__images__list__container i {
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  width: 70%;
+  left: 15%;
+  opacity: 0.6;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+}
+
+.product-details-main__container__images__list__container i:first-child {
+  top: 0%;
+}
+.product-details-main__container__images__list__container i:last-child {
+  bottom: 0%;
+}
+
+.line {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  top: 0px;
+
+  border: 1px solid #e4e4e4;
+}
+
+.product-details-main__container__description__price h4:nth-child(1) {
+  font-size: 20px;
+  /* identical to box height, or 150% */
+  color: #1a202c;
+}
+
+.product-details-main__container__description__price h4:nth-child(2) {
+  /* identical to box height, or 150% */
+  text-decoration-line: line-through;
+  color: #4a5568;
+}
+
+.product-details-main__container__description__price {
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-details-main__container__description__text {
+  width: 100%;
+}
+
+@media (max-width: 778px) {
+  .product-details-main {
+    margin-bottom: 104px;
+  }
+  .product-details-main__container {
+    flex-direction: column;
+  }
+  .product-details-main__container__images {
+    width: 80%;
+    height: 60%;
+  }
+  .product-details-main__container__description {
+    height: 40%;
+    width: 80%;
+  }
+}

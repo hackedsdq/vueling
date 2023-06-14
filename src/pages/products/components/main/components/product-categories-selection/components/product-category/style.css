@@ -1,0 +1,36 @@
+.products-category__list-container__items {
+  list-style: none;
+  width: 70%;
+  float: right;
+  position: relative;
+}
+
+.products-category__list-container__item {
+  cursor: pointer;
+}
+
+.products-category__list-container__items::before {
+  content: "";
+  z-index: 8;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 10%;
+  background-color: rgb(210, 210, 210);
+}
+
+.products-category__selection-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.products-category__selection-container__arrow {
+  position: relative;
+  cursor: pointer;
+}
+
+.products-category {
+  width: 100%;
+}

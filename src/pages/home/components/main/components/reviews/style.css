@@ -1,0 +1,150 @@
+.reviews{
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+   margin-left: 5% ;
+   padding-bottom: 50px;
+}
+
+.reviews_title-line{
+    background: #FFCC03;
+    height: 12px;
+    width:150px;
+    opacity: .3;
+    position: relative;
+    top: -40px;
+    left: 10px;
+
+}
+
+.reviews_title1{
+    color: black;
+    padding-left: 10px;
+}
+
+.reviews_title2{
+color: #FFCC03;
+}
+.reviews_title{
+    display: flex;
+}
+
+.reviews p{
+    margin-top: -20px;
+}
+
+.reviews__review-container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+width: 300px;
+height: 288px;
+margin-bottom: 100px;
+
+/* Inside auto layout */
+
+
+}
+
+
+.reviews__review-container__content{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 32px;
+gap: 8px;
+height: 70%;
+background: #FFFFFF;
+box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+border-radius: 12px;
+flex-wrap: wrap;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.reviews__review-container__content h3{
+    width: 100%;
+height: 24px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+color: #1A202C;
+}
+
+.reviews__review-container__content p{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+width: 100%;
+height: 63px;
+}
+
+
+.reviews__review-container__image-container{
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+gap: 8px;
+isolation: isolate;
+
+width: 100%;
+height: 97px;
+}
+
+.reviews__review-container__image-container img{
+    width: 48px;
+    height: 48px;
+    
+    background: #A0AEC0;
+    border-radius: 9999px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+
+.reviews__review-container__image-container p{
+    width: 99px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+color: #1A202C;
+margin-top: 1px;
+}
+
+
+.reviews_container{
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
